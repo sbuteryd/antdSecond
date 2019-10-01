@@ -1,5 +1,7 @@
 import React from 'react';
 import Child from './child'
+import './index.less'
+import { Button } from 'antd'
 
 class Life extends React.Component{
     state= {
@@ -13,7 +15,8 @@ class Life extends React.Component{
     }
     render() {
         return (
-            <div>
+            <div className='container'>
+                <Button>Button</Button>
                 <button onClick={this.updateCount}>click</button>
                 <Child name={this.state.count}/>
                 <p>{this.state.count}</p>
