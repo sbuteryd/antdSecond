@@ -16,7 +16,7 @@ class Life extends React.Component{
     render() {
         return (
             <div className='container'>
-                <Button>Button</Button>
+                <Button type='primary'>Button</Button>
                 <button onClick={this.updateCount}>click</button>
                 <Child name={this.state.count}/>
                 <p>{this.state.count}</p>
