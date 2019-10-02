@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="932514b7-abed-49e3-acef-50075df3213f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/indexx.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/indexx.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/common.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/common.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +18,8 @@
       <list>
         <option value="Sass File" />
         <option value="HTML File" />
-        <option value="Less File" />
         <option value="JavaScript File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -43,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/style" />
       <recent name="$PROJECT_DIR$/public/assets" />
     </key>
   </component>
