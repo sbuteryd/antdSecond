@@ -49,7 +49,7 @@ export default class Header extends React.Component {
                     </Col>
                     <Col span={20} className='weather'>
                         <span className='date'>{this.state.sysTime}</span>
-                        <img src={this.state.dayPictureUrl} alt=""/>
+                         <img src={this.state.dayPictureUrl} alt=""/>
                         <span className='weather-detail'>{this.state.weather}</span>
                     </Col>
                 </Row>
