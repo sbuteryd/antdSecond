@@ -6,6 +6,7 @@ import Login from "./pages/login";
 import Button from './pages/ui/button'
 import  Nomatch from './pages/nomatch'
 import Modals from './pages/ui/modals'
+import Loadings from './pages/ui/loadings'
 export default class IRouter extends React.Component{
     render() {
         return (
@@ -18,6 +19,7 @@ export default class IRouter extends React.Component{
                                 <Switch>
                                     <Route  path='/ui/buttons' component={Button}/>
                                     <Route  path='/ui/modals' component={Modals}/>
+                                    <Route  path='/ui/loadings' component={Loadings}/>
                                     <Route component={Nomatch}></Route>
                                 </Switch>
                             </Admin>
