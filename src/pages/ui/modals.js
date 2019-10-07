@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal, Button,Card} from 'antd';
+import { Modal, Button,Card,Icon} from 'antd';
 
 import './index.less'
 
@@ -89,9 +89,22 @@ class Modals extends React.Component{
     }
       warning =()=> {
         Modal.warning({
+            icon:(<Icon  type="pie-chart"style={{ fontSize: '20px', color: '#08c'}} />),
             title: 'This is a warning message',
             content: 'some messages...some messages...',
+            okText:'关闭',
+            mask:true
+
         });
+    }
+    other= ()=>{
+        Modal.confirm({
+            icon:(<Icon  type="pie-chart"style={{ fontSize: '20px', color: '#08c'}} />),
+            title: 'This is a warning message',
+            content: 'some messages...some messages...',
+            okText:'关闭',
+            mask:true
+        })
     }
     render() {
         return (
@@ -160,7 +173,12 @@ class Modals extends React.Component{
                   <Button onClick={this.success}>Success</Button>
                   <Button onClick={this.error}>Error</Button>
                   <Button onClick={this.warning}>Warning</Button>
+                  <Button onClick={this.other}>other</Button>
+
               </Card>
+
+
+
           </div>
         );
     }
