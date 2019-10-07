@@ -4,25 +4,26 @@ import './index.less'
 const ButtonGroup = Button.Group;
 export default class ButtonExameple extends React.Component{
     state= {
-        value:'small',
+        loading:true,
         size:'small'
     }
     onChange = e => {
-        console.log('radio checked', e.target.value);
-        if(e.target.value ==='small'){
-            this.setState((previousState)=>({
-                size:previousState.size ='small'
-            }))
-        }else if (e.target.value ==='default'){
-            this.setState((previousState)=>({
-                size:previousState.size ='default'
-            }))
-        }else if (e.target.value === 'large'){
-            this.setState((previousState)=>({
-                size:previousState.size ='large'
-            }))
-        }
+        e.preventDefault()
+        this.setState({
+            size:e.target.value
+        })
     };
+    handleCloseLoading=()=>{
+        this.setState({
+                loading:false
+        });
+    }
+    handleOpenLoading=()=>{
+        this.setState({
+            loading:true
+        });
+    }
+
     render() {
         return (
             <div>
@@ -42,11 +43,11 @@ export default class ButtonExameple extends React.Component{
                     <Button type="primary" icon="download" >下载</Button>
                 </Card>
                 <Card title='Loading 按钮'>
-                    <Button loading>确定</Button>
-                    <Button shape='circle' loading/>
-                    <Button loading >点击加载</Button>
-                    <Button type='default' shape='circle' loading/>
-                    <Button type='primary'>关闭</Button>
+                    <Button  loading={this.state.loading}>确定</Button>
+                    <Button shape='circle'  loading={this.state.loading}/>
+                    <Button loading={this.state.loading} onClick={this.handleOpenLoading} >点击加载</Button>
+                    <Button type='default' shape='circle' loading={this.state.loading}/>
+                    <Button type='primary' onClick={this.handleCloseLoading}>关闭</Button>
                 </Card>
                 <Card title='Loading 按钮'>
                     <ButtonGroup >
