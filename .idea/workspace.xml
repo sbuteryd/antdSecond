@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="932514b7-abed-49e3-acef-50075df3213f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavLeft/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavLeft/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ui/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ui/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +18,8 @@
         <option value="Sass File" />
         <option value="HTML File" />
         <option value="XSLT Stylesheet" />
-        <option value="Less File" />
         <option value="JavaScript File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -91,6 +88,7 @@
       <workItem from="1569895881717" duration="12066000" />
       <workItem from="1569915473001" duration="5765000" />
       <workItem from="1570065949010" duration="4700000" />
+      <workItem from="1570411995597" duration="4430000" />
     </task>
     <servers />
   </component>
